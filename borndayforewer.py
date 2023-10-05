@@ -21,7 +21,7 @@ def questions(quest_str, correct_answer):
     answer_user = input(quest_str)
     while answer_user != correct_answer:
         print("Не верно")
-        answer_user = input('Ввведите год рождения А.С.Пушкина: ')
+        answer_user = input(quest_str)
 
 
 questions('Ввведите год рождения А.С.Пушкина: ', '1799')
